@@ -1,5 +1,6 @@
 # multiplayerXR
-Using Unity 2020 (XR plug-ins, URP) and Normcore (networking, voice chat) to build multiplayer experiences in XR.  Targeting the Oculus Quest.
+Using Unity 2020 (XR plug-ins, URP) and Normcore (networking, voice chat) to build multiplayer experiences in XR
+* Targeting the Oculus Quest.
 
 This repo contains a Unity project folder.  To install:
 * Install and Open Unity 2020.1+
