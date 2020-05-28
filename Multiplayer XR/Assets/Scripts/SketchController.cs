@@ -45,8 +45,8 @@ public class SketchController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audio = GetComponent<AudioSource>();
-        currentConfettiParticleSystem = confettiParticleSystems[0];
+/*        audio = GetComponent<AudioSource>();
+        currentConfettiParticleSystem = confettiParticleSystems[0];*/
         for (int i = 0; i < avatarHeads.Length; i++)
         {
             avatarHeads[i].SetActive(false);
@@ -59,6 +59,7 @@ public class SketchController : MonoBehaviour
     void Update()
     {
         
+/*        
         // APPLAUSE
         newActivationState = CheckIfActivated(applauseAndLaughterXRController, applauseActivationButton);
         if (newActivationState && (newActivationState != applauseButtonLastState))
@@ -112,6 +113,7 @@ public class SketchController : MonoBehaviour
             currentConfettiParticleSystem.Play();
         }
         confettiButtonLastState = newActivationState;
+*/
 
 
         // AVATAR HEAD MODEL
