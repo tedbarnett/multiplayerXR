@@ -5606,7 +5606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1930498710}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -11123,6 +11123,7 @@ GameObject:
   - component: {fileID: 518981056587239084}
   - component: {fileID: 518981056587239087}
   - component: {fileID: 1930498710}
+  - component: {fileID: 46061006}
   m_Layer: 0
   m_Name: VR Rig
   m_TagString: Untagged
@@ -11162,7 +11163,7 @@ MonoBehaviour:
   m_CameraGameObject: {fileID: 518981055786863858}
   m_TrackingOriginMode: 2
   m_TrackingSpace: 3
-  m_CameraYOffset: 1.36144
+  m_CameraYOffset: 1.6256
 --- !u!114 &518981056587239086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11237,6 +11238,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &46061006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518981056587239081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388dc7b6a4dc94db6b9f4ca46437d145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applauseAndLaughterXRController: {fileID: 518981055331144282}
+  applauseActivationButton: 0
+  laughterActivationButton: 0
+  weatherXRController: {fileID: 0}
+  weatherActivationButton: 0
+  applauseSounds: []
+  laughterSounds: []
+  skyBoxMaterials: []
+  activationThreshold: 0.1
+  audio: {fileID: 0}
+  confettiActivationButton: 0
+  confettiParticleSystems: []
+  avatarHeadActivationButton: 15
+  avatarHeads:
+  - {fileID: 1615893131199876334}
+  - {fileID: 8863061488915297940}
+  - {fileID: 3889017165015807347}
+  - {fileID: 3830902199936151938}
 --- !u!1 &518981056666029858
 GameObject:
   m_ObjectHideFlags: 0
@@ -11365,7 +11396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5512315838781484229}
   m_Layer: 0
-  m_Name: Avatar Head Models
+  m_Name: Avatar Head Selector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11632,6 +11663,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7893929749658864358, guid: a7b1e133769449b488cbee459b61f205, type: 3}
   m_PrefabInstance: {fileID: 866981063485525685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1615893131199876334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1901905058159788635, guid: a7b1e133769449b488cbee459b61f205, type: 3}
+  m_PrefabInstance: {fileID: 866981063485525685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1119453927019826009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11710,6 +11746,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8800406198762474048, guid: df751baeca7393345809a65a32b23bd6, type: 3}
   m_PrefabInstance: {fileID: 1119453927019826009}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3889017165015807347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4211298772875427370, guid: df751baeca7393345809a65a32b23bd6, type: 3}
+  m_PrefabInstance: {fileID: 1119453927019826009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4454015696616502086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11783,6 +11824,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a14de5b6eb15db46ac99addf8049ae7, type: 3}
+--- !u!1 &3830902199936151938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 641146041430950596, guid: 2a14de5b6eb15db46ac99addf8049ae7, type: 3}
+  m_PrefabInstance: {fileID: 4454015696616502086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &77390738461659275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4385703230600815565, guid: 2a14de5b6eb15db46ac99addf8049ae7, type: 3}
@@ -11864,5 +11910,10 @@ PrefabInstance:
 --- !u!4 &4572117216592742832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6846682513546292698, guid: 070a43c7b9452fe408e68a321e705ecc, type: 3}
+  m_PrefabInstance: {fileID: 6951060949243225194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8863061488915297940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1912000614918181630, guid: 070a43c7b9452fe408e68a321e705ecc, type: 3}
   m_PrefabInstance: {fileID: 6951060949243225194}
   m_PrefabAsset: {fileID: 0}
