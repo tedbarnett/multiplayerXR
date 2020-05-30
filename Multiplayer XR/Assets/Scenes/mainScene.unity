@@ -556,6 +556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 518981054772763255, guid: b3b00f4f19200be4a9b6433671c8ae33, type: 3}
+      propertyPath: m_AxisToPressThreshold
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 518981056587239081, guid: b3b00f4f19200be4a9b6433671c8ae33, type: 3}
       propertyPath: m_Name
       value: VR Rig
@@ -603,6 +607,10 @@ PrefabInstance:
     - target: {fileID: 518981056587239083, guid: b3b00f4f19200be4a9b6433671c8ae33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 518981056587239087, guid: b3b00f4f19200be4a9b6433671c8ae33, type: 3}
+      propertyPath: activationThreshold
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3b00f4f19200be4a9b6433671c8ae33, type: 3}
