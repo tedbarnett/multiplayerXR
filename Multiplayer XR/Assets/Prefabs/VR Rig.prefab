@@ -5466,7 +5466,7 @@ MonoBehaviour:
   m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
-  m_AxisToPressThreshold: 0.1
+  m_AxisToPressThreshold: 0.2
   m_ModelPrefab: {fileID: 7832639780875788524, guid: b1b360a7b4aa2a34b9891cc8888701fc, type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
@@ -5632,7 +5632,7 @@ MonoBehaviour:
   m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
-  m_AxisToPressThreshold: 0.1
+  m_AxisToPressThreshold: 0.2
   m_ModelPrefab: {fileID: 7832639780875788524, guid: 8e7f27d46546ed9498ad5b67d0ec5c48, type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
@@ -5724,7 +5724,7 @@ MonoBehaviour:
   _components:
   - componentID: 1
     component: {fileID: 402520911}
-    componentIDHasBeenUsed: 0
+    componentIDHasBeenUsed: 1
   _parentView: {fileID: 1888270845}
   _childViews: []
 --- !u!114 &402520911
@@ -11367,8 +11367,8 @@ MonoBehaviour:
   m_Controllers:
   - {fileID: 518981055331144282}
   m_TurnAmount: 45
-  m_DebounceTime: 0.5
-  m_DeadZone: 0.75
+  m_DebounceTime: 0.1
+  m_DeadZone: 0.9
 --- !u!114 &518981056587239087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11384,7 +11384,7 @@ MonoBehaviour:
   leftTeleportRay: {fileID: 518981056076624253}
   rightTeleportRay: {fileID: 518981054772763255}
   teleportActivationButton: 14
-  activationThreshold: 0.1
+  activationThreshold: 0.2
 --- !u!114 &1930498710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11417,7 +11417,7 @@ MonoBehaviour:
   applauseSounds: []
   laughterSounds: []
   skyBoxMaterials: []
-  activationThreshold: 0.1
+  activationThreshold: 0.5
   audio: {fileID: 0}
   confettiActivationButton: 0
   confettiParticleSystems: []
