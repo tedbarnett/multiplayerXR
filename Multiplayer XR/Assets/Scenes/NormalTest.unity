@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6031683, g: 0.603173, b: 0.60317445, a: 1}
+  m_IndirectSpecularColor: {r: 0.60315704, g: 0.60315293, b: 0.6031578, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -867,7 +867,8 @@ PrefabInstance:
       propertyPath: _localAvatarPrefab
       value: 
       objectReference: {fileID: 1435502846325602, guid: 877a5ce286445844fa7c671e55bc5475, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
 --- !u!1 &1176469635
 GameObject:
